@@ -4,7 +4,7 @@ import React from "react";
 
 const data = [
   {
-    image: "/images/Primary.svg",
+    image: "/images/primary.svg",
     name: "Primary Care Consultation",
     para: "Lorem ipsum dolor sit amet consectetur. Nibh amet elementum ac turpis.",
   },
