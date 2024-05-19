@@ -21,9 +21,9 @@ function Works() {
   return (
     <div className="md:p-10 p-5 pb-20 md:my-20 bg-custom-gradient">
       <p className="text-center md:text-5xl text-2xl font-medium text-white my-10">
-        How iy Works
+        How it Works
       </p>
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-5 w-[80%] mx-auto">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-5 md:w-[90%] mx-auto">
         {data.map((item) => (
           <div className="space-y-5 text-center items-center">
             <div className="flex justify-center items-center ">

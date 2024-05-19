@@ -23,22 +23,24 @@ const data = [
 function Service() {
   return (
     <div className="my-10 md:w-[80%] mx-auto px-5 ">
-      <p className="text-center text-5xl font-medium">Services</p>
+      <p className="text-center md:text-5xl text-2xl font-medium">Services</p>
       <div className="grid grid-cols-1 md:grid-cols-3 md:gap-10 gap-5 mt-10">
         {data.map((item) => (
           <div className="shadow-xl rounded-[40px] rounded-tl-none">
             <div>
               <img src={item.image} className="w-full rounded-tr-[40px]" />
             </div>
-            <div className="p-5 space-y-4">
-              <p className="font-medium text-xl text-center">{item.name}</p>
+            <div className="p-5 md:space-y-4 space-y-2">
+              <p className="font-medium md:text-xl  text-center">{item.name}</p>
               <div>
-                <p className="text-[#6A6A6A] text-center">{item.para}</p>
+                <p className="text-[#6A6A6A] text-xs md:text-base  text-center">
+                  {item.para}
+                </p>
                 <a
-                  href="/service-details"
+                  href="/#"
                   className="mt-4 flex items-center text-blue-500 justify-center"
                 >
-                  <p>Know more</p>
+                  <p className="text-xs md:text-base ">Know more</p>
                   <ArrowLongRightIcon className="h-5 w-5 ml-2" />
                 </a>
               </div>

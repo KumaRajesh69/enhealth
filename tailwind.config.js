@@ -13,6 +13,7 @@ module.exports = {
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
         "custom-gradient":
           "linear-gradient(to right, #2E72ED, #5B8DF0, #41B0F8, #5B8DF0, #2E72ED)",
+        "welcome-bg": "url('/images/bgcard.svg')",
       },
     },
     fontFamily: {
