@@ -24,7 +24,7 @@ const data = [
 ];
 function Chooes() {
   return (
-    <div className="my-20 md:my-10 md:w-[80%] p-5 md:p-0 mx-auto">
+    <div className="my-20 md:my-24 md:w-[80%] p-5 md:p-0 mx-auto">
       <div className="my-10">
         <p className="text-center  md:text-5xl text-2xl font-medium">
           Why Choose Enhealth
