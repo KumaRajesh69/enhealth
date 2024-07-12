@@ -44,6 +44,9 @@ function Footer() {
               <p className="text-xl">Quick Links</p>
             </div>
             <div className="space-y-3 mt-8">
+              <a href="/About" class="block">
+                About Us
+              </a>
               <a href="/Service" class="block">
                 Service
               </a>
